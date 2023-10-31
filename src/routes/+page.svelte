@@ -15,7 +15,7 @@
 
 <div class="w-screen h-screen flex flex-col items-center py-5">
 	<div class="w-[90%] max-w-md rounded-lg overflow-hidden shadow-xl">
-		<div class="text-xl text-center text-white bg-slate-800 py-5"><h1>Úkolovník v1.0.0 💀</h1></div>
+		<div class="text-xl text-center text-white bg-slate-800 py-5"><h1>Úkolovník v1.0.1 💀</h1></div>
 		<form class="w-full flex flex-col md:flex-row bg-slate-600 p-6 gap-2" on:submit|preventDefault={handleSubmit}>
 			<input class="bg-slate-700 p-2 rounded-md text-white flex-1" placeholder="Zadej úkol....." type="text" bind:value={todo} />
 			<button class="bg-slate-700 p-2 rounded-md text-white" type="submit">Přidat úkol</button>
